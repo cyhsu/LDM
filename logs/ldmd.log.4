@@ -1,0 +1,87 @@
+20200831T204338.038571Z ldmd[207]                   ldmd.c:main:986                     NOTE  Starting Up (version: 6.13.11; built: May 20 2019 20:18:14)
+20200831T204338.038768Z ldmd[207]                   ldmd.c:create_ldm_tcp_svc:491       NOTE  Using local address 0.0.0.0:388
+20200831T204338.040026Z bigbird.tamu.edu[211]       LdmConfFile.c:requester_exec:740    NOTE  Starting Up(6.13.11): bigbird.tamu.edu:388 20200831194338.039956 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040168Z bigbird.tamu.edu[211]       LdmConfFile.c:getPrevProdInfo:557   NOTE  Previous product-information file ".dcab74dd3d102a103de6b4b8d56ab3d9.info" doesn't exist
+20200831T204338.040453Z idd.unidata.ucar.edu[214]   LdmConfFile.c:requester_exec:740    NOTE  Starting Up(6.13.11): idd.unidata.ucar.edu:388 20200831194338.040419 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040487Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:740    NOTE  Starting Up(6.13.11): coriolis.met.tamu.edu:388 20200831194338.040349 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040521Z idd.unidata.ucar.edu[214]   LdmConfFile.c:getPrevProdInfo:557   NOTE  Previous product-information file ".bcb5580ca7e2d88e9d278fd1669d5b5e.info" doesn't exist
+20200831T204338.040546Z bigbird.tamu.edu[211]       requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194338.040510 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040656Z ldm.tamu.edu[213]           LdmConfFile.c:requester_exec:740    NOTE  Starting Up(6.13.11): ldm.tamu.edu:388 20200831194338.040606 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040688Z coriolis.met.tamu.edu[212]  LdmConfFile.c:getPrevProdInfo:557   NOTE  Previous product-information file ".9b4d4165c93020e1fa58755723674729.info" doesn't exist
+20200831T204338.040771Z idd.unidata.ucar.edu[214]   requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194338.040748 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.040762Z ldm.tamu.edu[213]           LdmConfFile.c:getPrevProdInfo:557   NOTE  Previous product-information file ".0742a26dd16d1ec8356b8db94bb21952.info" doesn't exist
+20200831T204338.041102Z ldm.tamu.edu[213]           requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194338.041068 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.041186Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194338.041131 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204338.042894Z pqact[209]                  pqact.c:main:408                    NOTE  Starting Up
+20200831T204338.043807Z pqact[209]                  pqact.c:main:577                    NOTE  Starting from insertion-time 2018-12-19 18:18:42.370717 UTC
+20200831T204338.044150Z rtstats[210]                rtstats.c:main:352                  NOTE  Starting Up (207)
+20200831T204338.045192Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204338.045234Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204338.112188Z idd.unidata.ucar.edu[214]   requester6.c:make_request:311       NOTE  Upstream LDM-6 on idd.unidata.ucar.edu is willing to be an alternate feeder
+20200831T204438.045392Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194438.045349 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204438.048704Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204438.048760Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204438.124153Z idd.unidata.ucar.edu[214]   LdmConfFile.c:requester_exec:810    NOTE  Switching data-product transfer-mode to primary
+20200831T204438.124239Z idd.unidata.ucar.edu[214]   requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194438.124208 TS_ENDT {{IDS|DDPLUS, ".*"},{NONE, "SIG=0df1b45a08c7a04e39dfd344476bb383"}}
+20200831T204438.194614Z idd.unidata.ucar.edu[214]   requester6.c:make_request:311       NOTE  Upstream LDM-6 on idd.unidata.ucar.edu is willing to be a primary feeder
+20200831T204501.878916Z ldmd[217]                   ldmd.c:runChildLdm:611              ERROR Denying connection from "gateway" because not allowed
+20200831T204501.878984Z ldmd[217]                   ldmd.c:cleanup:192                  NOTE  Exiting
+20200831T204501.879577Z ldmd[207]                   ldmd.c:reap:177                     NOTE  child 217 exited with status 3
+20200831T204538.048923Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194538.048874 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204538.052235Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204538.052299Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204638.052466Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194638.052419 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204638.055274Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204638.055334Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204738.055490Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194738.055445 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204738.058441Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204738.058495Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204758.425732Z ldm.tamu.edu[213]           error.c:err_log:236                 WARN  Couldn't connect to LDM on ldm.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T204758.425750Z bigbird.tamu.edu[211]       error.c:err_log:236                 WARN  Couldn't connect to LDM on bigbird.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T204758.425834Z ldm.tamu.edu[213]           LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204758.425892Z bigbird.tamu.edu[211]       LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204838.058647Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194838.058602 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204838.061758Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204838.061808Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T204858.426093Z ldm.tamu.edu[213]           requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194858.426046 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204858.426100Z bigbird.tamu.edu[211]       requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194858.426065 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204938.061966Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831194938.061919 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T204938.065492Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T204938.065551Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205038.065711Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195038.065667 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205038.068540Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205038.068594Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205138.068757Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195138.068709 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205138.071664Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205138.071730Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205238.071885Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195238.071844 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205238.075240Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205238.075301Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205319.961729Z ldm.tamu.edu[213]           error.c:err_log:236                 WARN  Couldn't connect to LDM on ldm.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T205319.961729Z bigbird.tamu.edu[211]       error.c:err_log:236                 WARN  Couldn't connect to LDM on bigbird.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T205319.961806Z ldm.tamu.edu[213]           LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205319.961865Z bigbird.tamu.edu[211]       LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205338.075466Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195338.075419 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205338.078683Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205338.078745Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205419.962038Z ldm.tamu.edu[213]           requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195419.961989 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205419.962053Z bigbird.tamu.edu[211]       requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195419.962017 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205438.078906Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195438.078864 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205438.081779Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205438.081839Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205538.081995Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195538.081954 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205538.084991Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205538.085060Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205638.085229Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195638.085179 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205638.088483Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205638.088543Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205738.088701Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195738.088656 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205738.091915Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205738.091965Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205838.092127Z coriolis.met.tamu.edu[212]  requester6.c:req6_new:588           NOTE  LDM-6 desired product-class: 20200831195838.092080 TS_ENDT {{IDS|DDPLUS, ".*"}}
+20200831T205838.095058Z coriolis.met.tamu.edu[212]  error.c:err_log:236                 WARN  Couldn't connect to LDM on coriolis.met.tamu.edu using either port 388 or portmapper; : RPC: Program not registered
+20200831T205838.095110Z coriolis.met.tamu.edu[212]  LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205841.497730Z ldm.tamu.edu[213]           error.c:err_log:236                 WARN  Couldn't connect to LDM on ldm.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T205841.497730Z bigbird.tamu.edu[211]       error.c:err_log:236                 WARN  Couldn't connect to LDM on bigbird.tamu.edu using either port 388 or portmapper; : RPC: Remote system error - Connection timed out
+20200831T205841.497803Z ldm.tamu.edu[213]           LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...
+20200831T205841.497863Z bigbird.tamu.edu[211]       LdmConfFile.c:requester_exec:925    NOTE  Sleeping 60 seconds before retrying...

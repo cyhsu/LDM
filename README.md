@@ -8,5 +8,5 @@ This repository contains the customized files that GCOOS normally used, includin
 To use this repository, "git clone https://github.com/cyhsu/LDM.git" and then "docker-compose up -d ldm"
 
 
-Detail and Original documents can see [unidata/ldm-docker](http://www.unidata.ucar.edu/software/ldm/). 
+The Detail and Original documents please check:  [unidata/ldm-docker](http://www.unidata.ucar.edu/software/ldm/). 
 
